@@ -1,0 +1,33 @@
+{
+  "name": "loan-data-producer",
+  "version": "0.0.1",
+  "description": "Sends loan data to AWS Kinesis ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webmaxllc/loan-data-producer.git"
+  },
+  "keywords": [
+    "AWS",
+    "WebMax",
+    "Loan",
+    "Data",
+    "Analytics"
+  ],
+  "author": "Frank Bardon Jr. <frank.bardon@webmaxco.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/webmaxllc/loan-data-producer/issues"
+  },
+  "homepage": "https://github.com/webmaxllc/loan-data-producer#readme",
+  "dependencies": {
+    "aws-sdk": "^2.366.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}
